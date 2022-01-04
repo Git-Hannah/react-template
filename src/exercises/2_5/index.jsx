@@ -1,4 +1,9 @@
 import React from "react";
+import Button from "../components/Button";
+import Checkbox from "../components/Checkbox";
+import List from "../components/List";
+import List_Item from "../components/List_Item";
+import CheckboxCustom from "../components/CheckboxCustom";
 
 /**
  * ## Reusable components
@@ -8,7 +13,24 @@ import React from "react";
  * 4. Make a reusable List and ListItem component
  */
 const Exercise = () => {
-	return <h1>Exercise 2.5</h1>;
+	return (
+		<div>
+			<Button>Click me</Button>
+			<Checkbox label={"Check me"}></Checkbox>
+			<List>
+				<List_Item>
+					<Checkbox label={"Clean apartment"} />
+				</List_Item>
+				<List_Item>
+					<Checkbox label={"Buy groceries"} />
+				</List_Item>
+			</List>
+			<CheckboxCustom />
+			<ul>
+				<li>Etwas</li>
+			</ul>
+		</div>
+	);
 };
 
 export default Exercise;

@@ -1,0 +1,10 @@
+.checkbox {
+    _display: none;
+    position: fixed;
+    left: -100vh;
+    _opacity: 0;
+    top: 50%;
+}
+.circle {
+    width: 30px;
+}
