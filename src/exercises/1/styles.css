@@ -1,0 +1,33 @@
+.card {
+	background: rosybrown;
+	width: 300px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+}
+.card__image {
+	width: 80%;
+	border-radius: 30px;
+}
+.card__headline {
+	font-family: "Franklin Gothic Medium";
+	text-transform: uppercase;
+}
+.card__button {
+	display: inline-block;
+	padding: 0.3em 1.2em;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 2em;
+	box-sizing: border-box;
+    font-family: "Franklin Gothic Medium";
+	font-weight: 900;
+	color: #ffffff;
+	background-color: hsl(0, 25%, 25%);
+}
+.card__button:hover {
+	background-color: hsl(0, 25%, 85%);
+    color: hsl(0, 0%, 46%);
+}
