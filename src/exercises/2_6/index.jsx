@@ -42,7 +42,12 @@ const HTMLOutput = ({ outerRef }) => {
  * This Component outputs all props that can be stringified (i.e. functions are ignored)
  */
 const ComponentA = (props) => {
-	return <Code code={props} />;
+	return (
+		<div>
+			<Code code={props} />
+			<div>Hallo</div>
+		</div>
+	);
 };
 
 /**
@@ -117,10 +122,15 @@ const Exercise = () => {
 	return (
 		<div>
 			<h1>Exercise 2.6</h1>
+
+
 			<h2>ComponentA</h2>
 			<p>All properties are passed on</p>
-			<ComponentA foo="foo" bar={`BA${"r".toUpperCase()}`} />
-			<ComponentA age={26} name={{ first: "Max", last: "Harrington" }} />
+			<ComponentA foo="foo" bar={`BA${"r".toUpperCase()}`} qux={`weil${"baum".toUpperCase()}`} />
+			<ComponentA age={36} name={{ first: "Max", last: "Harrington" }} />
+
+
+
 			<h2>ComponentB</h2>
 			<p>
 				Some properties were removed by{" "}
@@ -140,7 +150,7 @@ const Exercise = () => {
 				.
 			</p>
 			<ComponentB foo="foo" bar={`BA${"r".toUpperCase()}`} />
-			<ComponentB age={26} name={{ first: "Max", last: "Harrington" }} />
+			<ComponentB age={6} name={{ first: "Max", last: "Harrington" }} />
 			<h2>ComponentC</h2>
 			<p>All properties are passed on</p>
 			<ComponentC color="red" foo="foo" bar="bar" />

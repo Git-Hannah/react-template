@@ -12,6 +12,17 @@ import CheckboxCustom from "../components/CheckboxCustom";
  * 3. Make a reusable Checkbox component
  * 4. Make a reusable List and ListItem component
  */
+
+const Typography = () => {
+	return <div>
+
+
+
+
+		
+	</div>;
+};
+
 const Exercise = () => {
 	return (
 		<div>
