@@ -4,6 +4,7 @@ import Checkbox from "../components/Checkbox";
 import List from "../components/List";
 import List_Item from "../components/List_Item";
 import CheckboxCustom from "../components/CheckboxCustom";
+import Typography from "../components/Typography";
 
 /**
  * ## Reusable components
@@ -13,19 +14,24 @@ import CheckboxCustom from "../components/CheckboxCustom";
  * 4. Make a reusable List and ListItem component
  */
 
-const Typography = () => {
-	return <div>
-
-
-
-
-		
-	</div>;
-};
-
 const Exercise = () => {
 	return (
 		<div>
+			<Typography variant="h1" component="h2">
+				Item
+			</Typography>
+			<Typography variant="h2">Item</Typography>
+			<Typography variant="h3">Item</Typography>
+			<Typography variant="caption">Item</Typography>
+			<Typography variant="body2" className="fancy" component="div">
+				Item
+			</Typography>
+			<Typography aria-label="hallo" className="fancy">
+				Item
+			</Typography>
+			<br />
+			<br />
+			<br />
 			<Button>Click me</Button>
 			<Checkbox label={"Check me"}></Checkbox>
 			<List>

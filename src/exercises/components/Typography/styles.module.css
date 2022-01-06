@@ -1,0 +1,21 @@
+.h1 {
+    font-size: 4em;
+}
+.h2 {
+    font-size: 2em;
+}
+.h3 {
+    font-size: 1.5em;
+}
+.caption {
+    font-size: 1.2em;
+    background: yellow;
+}
+.body1 {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+.body2 {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+}

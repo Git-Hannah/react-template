@@ -5,8 +5,8 @@ const Checkbox = ({ label }) => {
 	return (
 		<div>
 			<input type="checkbox" id="input_1" />
-			<label for="input_1">{label}</label>
-{/* 
+			<label htmlFor="input_1">{label}</label>
+			{/* 
 			<label>
 				<input type="checkbox" />
 				<div>
@@ -23,4 +23,3 @@ const Checkbox = ({ label }) => {
 };
 
 export default Checkbox;
-
