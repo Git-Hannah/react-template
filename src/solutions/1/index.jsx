@@ -28,7 +28,7 @@ const Exercise = () => {
 					superfamily Apoidea. They are presently considered a clade, called Anthophila.
 					There are over 16,000 known species of bees in seven recognized biological
 					families.[1][2] Some species – including honey bees, bumblebees, and stingless
-					bees – live socially in colonies while most species (>90%) – including mason
+					bees – live socially in colonies while most species (`{'>'}`90%) – including mason
 					bees, carpenter bees, leafcutter bees, and sweat bees – are solitary.
 				</aside>
 				<footer className={styles.CardActions}>
